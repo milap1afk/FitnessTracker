@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker & Meal Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <h1>Fitness Tracker & Meal Planner</h1>
+
+    <div class="container">
+        <div id="workout-section">
+            <h2>Workout Tracker</h2>
+            <button onclick="logWorkout()">Log Workout</button>
+            <p id="workout-data">No workout logged yet.</p>
+        </div>
+
+        <div id="meal-section">
+            <h2>Meal Planner</h2>
+            <input type="text" id="mealInput" placeholder="Enter food item">
+            <button onclick="getMealPlan()">Get Nutrition Info</button>
+            <p id="meal-data">Meal info will appear here.</p>
+        </div>
+
+        <canvas id="workoutChart"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -50,5 +50,3 @@ cd fitness-tracker
   <li><b>Nutritionix API:</b> Fetches nutritional details for user-selected meals.</li>
   <li><b>Chart.js:</b> Generates progress charts for fitness tracking.</li>
 </ul>
-
-<details>

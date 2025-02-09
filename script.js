@@ -17,7 +17,7 @@ async function getMealPlan() {
         return;
     }
 
-    const API_ID = "YOUR_APP_ID";  // Replace with your actual Nutritionix App ID
+    const API_ID = "262280e9";  // Replace with your actual Nutritionix App ID
     const API_KEY = "812a13a78e738e0fad1a85293be6d422";  
 
     let url = `https://trackapi.nutritionix.com/v2/natural/nutrients`;
